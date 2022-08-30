@@ -1,7 +1,8 @@
-package com.example.kompasandroidassessment
+package com.example.kompasandroidassessment.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.kompasandroidassessment.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
