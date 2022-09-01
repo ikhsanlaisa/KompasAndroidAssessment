@@ -1,4 +1,21 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        maven {
+            url "https://maven.google.com"
+        }
+
+        jcenter()
+    }
+    ext {
+        hiltVersion = '2.41'
+    }
+    dependencies {
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hiltVersion"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.4.2"
+    }
+}
+
 plugins {
     id 'com.android.application' version '7.2.1' apply false
     id 'com.android.library' version '7.2.1' apply false

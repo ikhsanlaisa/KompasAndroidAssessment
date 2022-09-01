@@ -2,46 +2,70 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph"
-    app:startDestination="@id/homeFragment">
-
+    app:startDestination="@id/dashboard">
     <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.koshsu.githubsearch.ui.home.HomeFragment"
-        android:label="Home"
-        tools:layout="@layout/fragment_home">
+        android:id="@+id/dashboard"
+        android:name="com.example.kompasandroidassessment.view.dashboard.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
         <action
-            android:id="@+id/action_search"
-            app:destination="@id/searchFragment" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/searchFragment"
-        android:name="com.koshsu.githubsearch.ui.search.SearchFragment"
-        android:label="Search"
-        tools:layout="@layout/fragment_search">
+            android:id="@+id/action_dashboard_to_detailFragment"
+            app:destination="@id/detailFragment"
+            app:enterAnim="@android:anim/slide_in_left" />
         <action
-            android:id="@+id/action_details"
-            app:destination="@id/detailsFragment" />
-        <argument
-            android:name="searchQuery"
-            app:argType="string" />
+            android:id="@+id/action_dashboard_to_onSearchFragment"
+            app:destination="@id/onSearchFragment" />
     </fragment>
-
     <fragment
-        android:id="@+id/detailsFragment"
-        android:name="com.koshsu.githubsearch.ui.details.DetailsFragment"
-        android:label="Details"
-        tools:layout="@layout/fragment_details">
-        <argument
-            android:name="repoId"
-            app:argType="long" />
-        <argument
-            android:name="ownerLogin"
-            app:argType="string" />
-        <argument
-            android:name="repoName"
-            app:argType="string" />
+        android:id="@+id/favorite"
+        android:name="com.example.kompasandroidassessment.view.favorite.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_favorite_to_detailFragment"
+            app:destination="@id/detailFragment" />
     </fragment>
-
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.kompasandroidassessment.view.detail.DetailFragment"
+        android:label="{username}"
+        tools:layout="@layout/fragment_detail">
+        <action
+            android:id="@+id/action_detailFragment_self"
+            app:destination="@id/detailFragment"
+            app:enterAnim="@android:anim/slide_in_left" />
+        <argument
+            android:name="username"
+            android:defaultValue="user"
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_detailFragment_to_repositoryFragment"
+            app:destination="@id/detailRepoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailRepoFragment"
+        android:name="com.example.kompasandroidassessment.view.detailrepo.DetailRepoFragment"
+        android:label="fragment_repository"
+        tools:layout="@layout/fragment_detail_repo" >
+        <argument
+            android:name="username"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="user" />
+        <argument
+            android:name="repository_name"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="repo" />
+    </fragment>
+    <fragment
+        android:id="@+id/onSearchFragment"
+        android:name="com.example.kompasandroidassessment.view.onsearch.OnSearchFragment"
+        android:label="fragment_on_search"
+        tools:layout="@layout/fragment_on_search" >
+        <action
+            android:id="@+id/action_onSearchFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
 </navigation>
