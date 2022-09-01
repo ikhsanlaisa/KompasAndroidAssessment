@@ -3,7 +3,62 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="../../../../layout/custom_preview.xml" value="0.14994934143870314" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/bg_corners_dark.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/bg_corners_white.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/bg_icon_selector.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/bg_shimmer.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/bg_text.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_light_mode_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_star_border_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_fav.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_fav_fill.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_fav_selector.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_follower.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_following.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_git.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_indicator_tab.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_issues.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_link.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_location.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_networks.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_organization.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_time.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_user.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_watchers.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/shape.xml" value="0.111" />
+        <entry key="app/src/main/res/drawable/splash_background.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1962962962962963" />
+        <entry key="app/src/main/res/layout/content_detail_header.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/content_detail_repo.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.13728470111448834" />
+        <entry key="app/src/main/res/layout/fragment_detail.xml" value="0.1381340579710145" />
+        <entry key="app/src/main/res/layout/fragment_detail_repo.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/fragment_favorite.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/fragment_follow.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/fragment_on_search.xml" value="0.13728470111448834" />
+        <entry key="app/src/main/res/layout/fragment_repo.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/item_repo.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/items_user.xml" value="0.13677811550151975" />
+        <entry key="app/src/main/res/layout/layout_bottomsheet.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/layout_no_repo.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/layout_no_users.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/shimmer_content_user.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/shimmer_layout_detail.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/shimmer_layout_detail_repo.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/shimmer_layout_repo.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/shimmer_layout_user.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/menu/dashboard_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/detail_menu.xml" value="0.25364583333333335" />
+        <entry key="app/src/main/res/menu/fav_menu.xml" value="0.17083333333333334" />
       </map>
     </option>
   </component>
